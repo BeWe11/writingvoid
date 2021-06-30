@@ -1,0 +1,70 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+.title a {
+  text-decoration: none;
+}
+
+.page1 {
+  text-align: center;
+}
+
+.about-link {
+  opacity: 0.3;
+}
+
+#textInput {
+  margin-top: 40px;
+  width: 800px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(20, 20, 20, 1);
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s;
+  border: 0 none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#textInput.fade {
+  color: rgba(0, 0, 0, 0);
+}
+
+.notransition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
+.container {
+  /* text-align: center; */
+  margin: auto;
+  width: 800px;
+  /* height: 100vh; */
+}
+
+.container * {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.slide {
+  height: 100vh;
+  padding-top: 100px;
+}
